@@ -1,0 +1,18 @@
+.component {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: column nowrap;
+
+  & .title {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: -16px;
+    left: 8px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+  }
+}

@@ -1,11 +1,9 @@
 .component {
   display: flex;
-  flex-direction: column;
-  height: 100%;
-  overflow-x: hidden;
-}
+  justify-content: center;
+  margin: 24px;
+  @media (min-width: 768px) {
+    margin-top: 40px;
+  }
 
-.content {
-  flex: 1;
-  padding: 16px;
 }

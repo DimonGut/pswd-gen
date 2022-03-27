@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("./assets/fonts/Montserrat-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("./assets/fonts/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.generationForm {
+  width: 100%;
+  min-height: 600px;
+
+  padding: 16px;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  background-color: #0a0e31;
+  border-radius: 8px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  @media (min-width: 768px) {
+    width: 460px;
+    min-height: 600px;
+  }
+
+  .formHeader {
+    margin: 0 0 24px;
+    font-size: 1.75rem;
+    color: rgba(255, 255, 255, 1);
+  }
+}

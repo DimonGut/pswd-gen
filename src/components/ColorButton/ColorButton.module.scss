@@ -16,6 +16,7 @@
     text-transform: uppercase;
     cursor: pointer;
     transition: all 150ms ease;
+    outline: none;
     &:active {
       transform: translateY(-3%);
       box-shadow: 0 4px 8px rgba(255, 255, 255, 0.08);

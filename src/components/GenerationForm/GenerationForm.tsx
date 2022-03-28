@@ -9,11 +9,11 @@ import classes from './GenerationForm.module.scss';
 
 const GenerationForm: React.FC = () => {
   const [result, setResult] = useState('Нажмите кнопку Сгенерировать');
-  const [length, setLength] = useState(8);
+  const [length, setLength] = useState(16);
   const [settings, setSettings] = useState({
     uppercase: true,
     lowercase: true,
-    numbers: false,
+    numbers: true,
     symbols: false,
   });
 

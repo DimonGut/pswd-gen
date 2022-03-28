@@ -1,6 +1,7 @@
 {
   "name": "pswd-gen",
   "version": "0.1.0",
+  "homepage": "https://dimongut.github.io/pswd-gen/",
   "private": true,
   "dependencies": {
     "@ff/generator": "^1.5.2",
@@ -32,6 +33,8 @@
     "typescript": "^4.5.5"
   },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -67,5 +70,8 @@
       "ff-lint --fix",
       "git add"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }

@@ -41,7 +41,7 @@ export function generatePassword(
     // eslint-disable-next-line @typescript-eslint/no-loop-func
     typeArray.forEach((type) => {
       const functionName = Object.keys(type)[0];
-      pswd += randomFunction[functionName]();
+      pswd += randomFunction[functionName as keyof typeof randomFunction]();
     });
   }
   return pswd.slice(0, length).split('').sort(() => Math.random() - 0.4).join('');

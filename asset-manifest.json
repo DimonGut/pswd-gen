@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pswd-gen/static/css/main.b7ae89ad.chunk.css",
+    "main.css": "/pswd-gen/static/css/main.9dfd1fa2.chunk.css",
     "main.js": "/pswd-gen/static/js/main.257b554a.chunk.js",
     "main.js.map": "/pswd-gen/static/js/main.257b554a.chunk.js.map",
     "runtime-main.js": "/pswd-gen/static/js/runtime-main.f32268ed.js",
@@ -8,14 +8,14 @@
     "static/js/2.86d9b082.chunk.js": "/pswd-gen/static/js/2.86d9b082.chunk.js",
     "static/js/2.86d9b082.chunk.js.map": "/pswd-gen/static/js/2.86d9b082.chunk.js.map",
     "index.html": "/pswd-gen/index.html",
-    "static/css/main.b7ae89ad.chunk.css.map": "/pswd-gen/static/css/main.b7ae89ad.chunk.css.map",
+    "static/css/main.9dfd1fa2.chunk.css.map": "/pswd-gen/static/css/main.9dfd1fa2.chunk.css.map",
     "static/js/2.86d9b082.chunk.js.LICENSE.txt": "/pswd-gen/static/js/2.86d9b082.chunk.js.LICENSE.txt",
     "static/media/GenerationForm.module.scss": "/pswd-gen/static/media/Montserrat-SemiBold.04af9a9e.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.f32268ed.js",
     "static/js/2.86d9b082.chunk.js",
-    "static/css/main.b7ae89ad.chunk.css",
+    "static/css/main.9dfd1fa2.chunk.css",
     "static/js/main.257b554a.chunk.js"
   ]
 }
